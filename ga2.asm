@@ -86,7 +86,7 @@ Header:             dc.b "SEGA MEGA DRIVE " ; Console name
 					dc.l $20202020          ; Unused
 					dc.b "                                        " ; Notes (unused)
 					dc.b "JUE             "                         ; Country codes
-
+EndOfHeader:
 					
 	__start:
 	; ---------------------------------------------------------------------------

@@ -3,7 +3,7 @@
 REM // make sure we can write to the file gabuilt.bin
 REM // also make a backup to gabuilt.prev.bin
 IF NOT EXIST ga2.bin goto LABLNOCOPY
-IF EXIST ga2.prev.bin del gabuilt.prev.bin
+IF EXIST ga2.prev.bin del ga2.prev.bin
 IF EXIST ga2.prev.bin goto LABLNOCOPY
 move /Y ga2.bin ga2.prev.bin
 IF EXIST ga2.bin goto LABLERROR3
